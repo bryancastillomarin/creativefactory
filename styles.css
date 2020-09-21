@@ -2,9 +2,12 @@
 	color: white;
 }
 
-.container {
-	margin-top: 10px;
+body {
 	background-color: black;
+}
+
+#cabecera {
+	margin-top: 20px;
 }
 
 .clearfix {
@@ -12,17 +15,18 @@
 	clear: both;
 }
 
+/*Cabecera*/
+
 header {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	width: 20%;
-	height: 75px;
+	display: inline;
+	width: 35%;
 	float: left;
+	/*background-color: blue;*/
 }
 
 nav {
-	width: 75%;
-	height: 75px;
+	/*background-color: red;*/
+	width: 65%;
 	float: left;
 }
 
@@ -33,22 +37,20 @@ nav ul {
 nav ul li{
 	text-align: center;
 	line-height: 75px;
-	font-size: 20px;
+	font-size: 30px;
 	display: inline;
-	margin-left: 10px;
-	margin-top: 10px;
-	padding-left: 10px; 
-	padding-right: 10px;
+	padding-left: 12px; 
+	padding-right: 12px;
 }
 
-nav ul li a{
+a {
 	text-decoration: none;
 }
 
 /*Barra de colores*/
 
 #barracolores {
-	margin-top: 20px;
+	margin-top: 5px;
 	width: 100%;
 	font-size: 4px;
 	margin-bottom: 50px;
@@ -103,59 +105,63 @@ nav ul li a{
 	background-color: rgb(254,202,10);
 }
 
-/**/
-
-	footer {
-		margin-top: 250px;
-	}
-
- 	#lista1 {
-        font-family:Arial;
-        font-weight:bold;
-        font-size:13px;
-    }
-    .separador {
-        color:gray;
-    }
-    #lista1 li {
-         display:inline;
-         padding-left:3px;
-         padding-right:3px;
-    }
-    #imagenfooter h4{
-    	display: block;
-    	float: right;
-    }
-
-    a {
-        color:white;
-        text-decoration:none;
-    }
-
-    a:hover {
-        color:black;
-        background-color:lightgray;
-    }
-
-
 /*Slider*/
 
-.w3-content {
+#slider {
+	background-color: red;
+}
+
+.w3-content .w3-display-container{
+	width: 100%;
+}
+
+.mySlides {
+	display:none;
+	width: 100%;
+	max-height: 210px;
+}
+.w3-left, .w3-right, .w3-badge {
+	cursor:pointer
+}
+.w3-badge {
+	height:13px;
+	width:13px;
+	padding:0
+}
+
+/*Pie de pagina*/
+
+footer {
+	margin-top: 10px;
+}
+
+#piedepagina {
+	margin-bottom: 0px;
+}
+
+#piedepagina > p {
+	width: 65%;
+	display: block;
 	float: left;
 }
 
- .mySlides {
-    	display:none;
-    	min-width: 1200px;
-    	max-height: 200px;
-    }
-	.w3-left, .w3-right, .w3-badge {
-		cursor:pointer
-	}
-	.w3-badge {
-		height:13px;
-		width:13px;
-		padding:0
-	}
+#piedepagina #imagenfooter {
+	width: 35%;
+	display: block;
+	float: left;
+}
 
+#listapie {
+	text-align: center;
+    font-size: 20px; 
+}
 
+#listapie li {
+	display:inline;
+	margin-right: 20px;
+	letter-spacing: 1px;
+}
+
+.colorazulclaro {
+	color: rgb(0,149,217);
+}
