@@ -1,0 +1,161 @@
+* {
+	color: white;
+}
+
+.container {
+	margin-top: 10px;
+	background-color: black;
+}
+
+.clearfix {
+	float: none;
+	clear: both;
+}
+
+header {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 20%;
+	height: 75px;
+	float: left;
+}
+
+nav {
+	width: 75%;
+	height: 75px;
+	float: left;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li{
+	text-align: center;
+	line-height: 75px;
+	font-size: 20px;
+	display: inline;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-left: 10px; 
+	padding-right: 10px;
+}
+
+nav ul li a{
+	text-decoration: none;
+}
+
+/*Barra de colores*/
+
+#barracolores {
+	margin-top: 20px;
+	width: 100%;
+	font-size: 4px;
+	margin-bottom: 50px;
+}
+
+#barracolores #azuloscuro {
+	float: left;
+	width: 12%;
+	color: rgb(23,51,100);
+	background-color: rgb(23,51,100);
+}
+#barracolores #verdelimon {
+	float: left;
+	width: 13%;
+	color: rgb(166,206,57);
+	background-color: rgb(166,206,57);
+}
+#barracolores #azulcielo {
+	float: left;
+	width: 12%;
+	color: rgb(0,149,217);
+	background-color: rgb(0,149,217);
+}
+#barracolores #lila {
+	float: left;
+	width: 13%;
+	color: rgb(165,69,134);
+	background-color: rgb(165,69,134);
+}
+#barracolores #rosado {
+	float: left;
+	width: 12%;
+	color: rgb(237,2,140);
+	background-color: rgb(237,2,140);
+}
+#barracolores #rojo {
+	float: left;
+	width: 13%;
+	color: rgb(238,29,35);
+	background-color: rgb(238,29,35);
+}
+#barracolores #naranja {
+	float: left;
+	width: 12%;
+	color: rgb(245,130,32);
+	background-color: rgb(245,130,32);
+}
+#barracolores #amarillo {
+	float: left;
+	width: 13%;
+	color: rgb(254,202,10);
+	background-color: rgb(254,202,10);
+}
+
+/**/
+
+	footer {
+		margin-top: 250px;
+	}
+
+ 	#lista1 {
+        font-family:Arial;
+        font-weight:bold;
+        font-size:13px;
+    }
+    .separador {
+        color:gray;
+    }
+    #lista1 li {
+         display:inline;
+         padding-left:3px;
+         padding-right:3px;
+    }
+    #imagenfooter h4{
+    	display: block;
+    	float: right;
+    }
+
+    a {
+        color:white;
+        text-decoration:none;
+    }
+
+    a:hover {
+        color:black;
+        background-color:lightgray;
+    }
+
+
+/*Slider*/
+
+.w3-content {
+	float: left;
+}
+
+ .mySlides {
+    	display:none;
+    	min-width: 1200px;
+    	max-height: 200px;
+    }
+	.w3-left, .w3-right, .w3-badge {
+		cursor:pointer
+	}
+	.w3-badge {
+		height:13px;
+		width:13px;
+		padding:0
+	}
+
+
