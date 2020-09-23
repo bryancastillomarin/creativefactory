@@ -26,7 +26,7 @@
 			 <a href="#"> Ayuda </a>
 			</li>
 			<li>
-				2017-2020,Le Groupe Premier México, SAS o sus filiales.
+				 2017-2020,Le Groupe Premier México, SAS o sus filiales.
 			</li>
 		</ul>
 	</footer>
