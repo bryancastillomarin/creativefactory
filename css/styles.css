@@ -50,6 +50,10 @@ body {
 	font-family: "antquab";
 }
 
+a {
+	text-decoration: none;
+}
+
 /*Cabecera*/
 
 header {
@@ -59,17 +63,17 @@ header {
 	/*background-color: blue;*/
 }
 
-nav {
+#menu {
 	/*background-color: red;*/
 	width: 65%;
 	float: left;
 }
 
-nav ul {
+#menu ul {
 	list-style: none;
 }
 
-nav ul li{
+#menu ul li {
 	text-align: center;
 	line-height: 75px;
 	font-size: 30px;
@@ -78,8 +82,13 @@ nav ul li{
 	padding-right: 12px;
 }
 
-a {
-	text-decoration: none;
+#menu ul li a {
+	display: block;
+	transition: all 300ms;
+}
+
+#menu ul li a:hover {
+	transform: scale(1.2,1.2);
 }
 
 /*Barra de colores*/

@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div id="cabecera">
-		<nav>
+		<nav id="menu">
 			<ul>
 				<li><a href="#">inicio</a></li>
 				<li><a href="#">somos</a></li>
