@@ -13,17 +13,17 @@
 	<div id="cabecera">
 		<nav id="menu">
 			<ul>
-				<li><a href="#">inicio</a></li>
-				<li><a href="#">somos</a></li>
-				<li><a href="#">soluciones</a></li>
-				<li><a href="#">ética</a></li>
-				<li><a href="#">acércate</a></li>
-				<li><a href="#">news</a></li>
+				<li><a href="#" id="inicio">Inicio</a></li>
+				<li><a href="#" id="somos">Somos</a></li>
+				<li><a href="#" id="soluciones">Soluciones</a></li>
+				<li><a href="#" id="tecnologia">Tecnología (IT)</a></li>
+				<li><a href="#" id="etica">Ética</a></li>
+				<li><a href="#" id="acercate">Acércate</a></li>
+				<li><a href="#" id="news">News</a></li>
 			</ul>
 		</nav>
 		<header>
-			<h1 id="titulo">Creative Factory</h1>
-			publicidad&marketing
+			<img src="img/LogoBlancoCFWeb.png">
 		</header>
 	</div>
 
@@ -39,7 +39,6 @@
 		<div id="naranja">Creative Factory</div>
 		<div id="amarillo">Creative Factory</div>
 	</div>
-
 
 <?php
 ?>

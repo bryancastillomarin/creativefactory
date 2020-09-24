@@ -6,7 +6,7 @@
 	<footer>
 		<div id="piedepagina">
 			<p>Diseño creativo web Creative Factory México 2020</p>
-			<h2 id="imagenfooter">Imagen Creative</h2>
+			<img src="img/LogoPiePaginaCFWeb.png" id="imagenfooter">
 		</div>
 		<div class="clearfix"></div>
 		<ul id="listapie">
@@ -26,7 +26,9 @@
 			 <a href="#"> Ayuda </a>
 			</li>
 			<li>
-				 2017-2020,Le Groupe Premier México, SAS o sus filiales.
+				2017-2020,
+				<img src="img/MR.png" id="mr">
+				Le Groupe Premier México, SAS o sus filiales.
 			</li>
 		</ul>
 	</footer>
