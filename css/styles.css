@@ -186,6 +186,10 @@ header img {
 	background-color: red;
 }
 
+.w3-content {
+	max-width: 100%;
+}
+
 .w3-content .w3-display-container{
 	width: 100%;
 	max-height: 210px;
@@ -193,7 +197,6 @@ header img {
 }
 
 .mySlides {
-	display:none;
 	width: 100%;
 	max-height: 210px;
 	min-height: 210px;
@@ -201,10 +204,11 @@ header img {
 .w3-left, .w3-right, .w3-badge {
 	cursor:pointer
 }
+
 .w3-badge {
-	height:13px;
-	width:13px;
-	padding:0
+	height: 25px;
+	width: 25px;
+	padding: 0;
 }
 
 /*Contenido*/

@@ -1,7 +1,7 @@
 <?php
 
-	include "header.php";
-	include "slider.php";
-	include "content.php";
-	include "footer.php";
+	include "include/header.php";
+	include "include/slider.php";
+	include "include/contentIndex.php";
+	include "include/footer.php";
 ?>
