@@ -1,5 +1,3 @@
-<?php
-?>
 <div class="clearfix"></div>
     <div id="slider">
         <div class="w3-content w3-display-container">
@@ -46,6 +44,3 @@ function showDivs(n) {
   dots[slideIndex-1].className += " w3-white";
 }
 </script>
-
-<?php
-?>
