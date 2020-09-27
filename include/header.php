@@ -20,7 +20,7 @@
 			</ul>
 		</nav>
 		<header>
-			<img src="img/LogoBlancoCFWeb.png">
+			<img src="img/LogoBlancoCFWeb.png" align="Logo Creative Factory" title="Creative Factory">
 		</header>
 	</div>
 

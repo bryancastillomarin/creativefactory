@@ -50,6 +50,10 @@ body {
 	font-family: "antquab";
 }
 
+.symbol {
+	font-family: "WebSymbolsRegular";
+}
+
 /*Cabecera*/
 
 header {
@@ -182,10 +186,6 @@ header img {
 
 /*Slider*/
 
-#slider {
-	background-color: red;
-}
-
 .w3-content {
 	max-width: 100%;
 }
@@ -291,4 +291,72 @@ footer {
 .colorazulclaro {
 	color: rgb(0,149,217);
 	font-weight: bold;
+}
+
+/*Formulario seccion Acércate*/
+#formulario {
+	display: block;
+	float: left;
+	width: 50%;
+	padding-left: 80px;
+	padding-right: 50px;
+	font-size: 19px;
+}
+
+#formulario label{
+	display: inline-block;
+	font-size: 15px;
+	width: 45%;
+	padding-left: 15px;
+	letter-spacing: 1px;
+}
+
+#formulario input,
+#formulario textarea {
+	width: 95%;
+	padding-left: 10px;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid rgb(238,29,35);
+	border-right: 1px solid rgb(238,29,35);
+	box-shadow: 1px 1px 2px rgb(238,29,35), 1px 2px 1px rgb(238,29,35);
+	opacity: 50%;
+}
+
+#formulario input[type="email"],
+#formulario input[type="number"] {
+	width: 47%;
+}
+
+#formulario input[type="email"]:focus,
+#formulario input[type="number"]:focus,
+#formulario input[type="text"]:focus,
+#formulario textarea:focus {
+	outline: none;
+	opacity: 100%;
+}
+
+#formulario textarea {
+	resize: none;
+}
+
+#formulario textarea {
+	width: 95%;
+}
+
+#formulario label[for="texto"] {
+	width: 95%;
+	font-size: 12px;
+}
+
+#formulario input[type="button"] {
+	transition: all 500ms;
+	border: 1px solid white;
+	box-shadow: 1px 1px 2px white, 1px 2px 1px white, 2px 0px 2px white;
+	margin-top: 5px;
+}
+
+#formulario input[type="button"]:hover {
+	opacity: 100%;
+	cursor: pointer;
 }
