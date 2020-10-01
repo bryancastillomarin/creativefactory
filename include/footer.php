@@ -8,7 +8,7 @@
 		<div class="clearfix"></div>
 		<ul id="listapie">
             <li>
-				<a href="#">Términos y Aviso de privacidad</a>
+				<a href="privacidad.php">Términos y Aviso de privacidad</a>
             </li>
             <li class="colorazulclaro">
 				|
