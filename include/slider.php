@@ -1,10 +1,10 @@
 <div class="clearfix"></div>
     <div id="slider">
         <div class="w3-content w3-display-container">
-            <img class="mySlides" src="img/slider1covid19.jpg">
-            <img class="mySlides" src="img/slider2cocina.jpg">
-            <img class="mySlides" src="img/slider3teotihuacan.jpg">
-            <img class="mySlides" src="img/slider4RR.jpg">
+            <img class="mySlides" src="img/sliders/slider1covid19.jpg">
+            <img class="mySlides" src="img/sliders/slider2cocina.jpg">
+            <img class="mySlides" src="img/sliders/slider3teotihuacan.jpg">
+            <img class="mySlides" src="img/sliders/slider4RR.jpg">
             <div class="w3-center w3-display-bottommiddle" style="width:100%">
                 <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
                 <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>

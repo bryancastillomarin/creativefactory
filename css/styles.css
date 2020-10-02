@@ -239,8 +239,9 @@ header img {
 }
 
 .frase {
+	display: block;
 	position: absolute;
-	margin-top: 180px;
+	margin-top: 175px;
 	margin-left: 35%;
 	z-index: 1;
 }

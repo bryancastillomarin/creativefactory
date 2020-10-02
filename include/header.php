@@ -3,9 +3,11 @@
 <head>
 	<title>Creative Factory</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scaleble=no">
 	<link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link rel="icon" type="favicon/x-icon" href="img/isotipoCF.png">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="icon" type="favicon/x-icon" href="img/iconos/isotipoCF.png">
 </head>
 <body>
 	<div id="cabecera">
@@ -21,7 +23,7 @@
 			</ul>
 		</nav>
 		<header>
-			<img src="img/LogoBlancoCFWeb.png" align="Logo Creative Factory" title="Creative Factory">
+			<img src="img/iconos/LogoBlancoCFWeb.png" align="Logo Creative Factory" title="Creative Factory">
 		</header>
 	</div>
 

@@ -1,10 +1,10 @@
 	<section class="content">
 		<div class="imagenprincipal">
-			<img src="img/Tecnologias.jpg">
+			<img src="img/contenido/Tecnologias.jpg">
 		</div>
 		
 		<div class="frase">
-			<img src="img/04CFWebFrase.jpg">
+			<img src="img/frases/04CFWebFrase.jpg">
 		</div>
 		
 		<article class="textoprincipal">

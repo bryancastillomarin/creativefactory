@@ -1,9 +1,9 @@
 	<section class="content">
 		<div class="imagenprincipal">
-			<img src="img/Acercate.jpg">
+			<img src="img/contenido/Acercate.jpg">
 		</div>
 		<div class="frase">
-			<img src="img/06CFWebFrase.jpg">
+			<img src="img/frases/06CFWebFrase.jpg">
 		</div>
 
 		<div id="formulario">
@@ -23,24 +23,24 @@
 			</form>
 
 			<p>
-				<img src="img/CFBanderita.png" class="icon">
+				<img src="img/iconos/CFBanderita.png" class="icon">
 				Ciudad de México <span class="textobold">&</span> Veracruz
 			</p>
 			<p>
-				<img src="img/TELCF.png" class="icon">
+				<img src="img/iconos/TELCF.png" class="icon">
 				228-334-1306
 			</p>
 			<p class="social">
-				<img src="img/CFSkypeLogo.png" class="icon">
+				<img src="img/iconos/CFSkypeLogo.png" class="icon">
 				Creative Factory MX
 			</p>
 			<p class="social">
 				Síguenos en
 				<a href="https://instagram.com" target="_">
-					<img src="img/CFINSTAGRAMlogo.png" class="icon">
+					<img src="img/iconos/CFINSTAGRAMlogo.png" class="icon">
 				</a> 
 				<a href="https://facebook.com" target="_">
-					<img src="img/CFFBlogo.png" class="icon">
+					<img src="img/iconos/CFFBlogo.png" class="icon">
 				</a>
 			</p>
 		</div>
