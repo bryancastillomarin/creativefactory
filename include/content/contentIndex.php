@@ -3,7 +3,7 @@
 			<img src="img/contenido/inicio.jpg">
 		</div>
 		
-		<div class="frase">
+		<div id="frase1" class="frase">
 			<img src="img/frases/01CFWebFrase.jpg">
 		</div>
 		

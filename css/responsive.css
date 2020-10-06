@@ -1,4 +1,11 @@
-@media(max-width: 1295px) {
+@media(min-width: 1296px) {
+	input::placeholder,
+	textarea::placeholder {
+		visibility: hidden;
+	}	
+}
+
+@media(max-width: 1295px) { /*11111111111111111111111111111111111111111111111*/
 	#menu ul li {
 		font-size: 26px;
 		padding-right: 10px;
@@ -11,9 +18,18 @@
 	.frase img{
 		width: 95%;
 	}
+
+	input::placeholder,
+	textarea::placeholder {
+		visibility: hidden;
+	}
+
+	#listapie {
+	    font-size: 20px;
+	}
 }
 
-@media(max-width: 1205px) {
+@media(max-width: 1205px) { /*22222222222222222222222222222222222222222222222*/
 	header img {
 		width: 83%;
 	}
@@ -31,16 +47,20 @@
 	}
 
 
-		.frase {
-			margin-top: 160px;
-		}
+	.frase {
+		margin-top: 160px;
+	}
 
-		.frase img{
-			width: 85%;
-		}
+	.frase img{
+		width: 85%;
+	}
+
+	#listapie {
+	    font-size: 18px;
+	}
 }
 
-@media(max-width: 1130px) {
+@media(max-width: 1130px) { /*33333333333333333333333333333333333333333333333*/
 	#menu ul li {
 		font-size: 22px;
 		padding-right: 8px;
@@ -67,9 +87,17 @@
 	.textoprincipal {
 		font-size: 17px;
 	}
+
+	#listapie li {
+		margin-right: 0px;
+	}
+
+	#listapie li:last-child	 {
+		margin-left: 50px;
+	}
 }
 
-@media(max-width: 1040px) {
+@media(max-width: 1040px) {/*444444444444444444444444444444444444444444444444*/
 	#menu ul li {
 		font-size: 20px;
 		padding-right: 7px;
@@ -92,9 +120,26 @@
 	.frase img{
 		width: 80%;
 	}
+
+	#formulario {
+		font-size: 17px;
+	}
+
+	#formulario label {
+		font-size: 13px;
+	}
+
+	#listapie {
+	    font-size: 16px;
+	}
+
+	#listapie li:last-child	 {
+		margin-left: 50px;
+	}
+
 }
 
-@media(max-width: 955px){
+@media(max-width: 955px){/*55555555555555555555555555555555555555555555555555*/
 
 	#cabecera {
 		margin-bottom: 0px;
@@ -135,9 +180,65 @@
 		padding-top: 10px;
 		font-size: 16px;
 	}
+
+	#formulario {
+		font-size: 15px;
+	}
+
+	#formulario label {
+		font-size: 11px;
+	}
+
+	#formulario input[type="email"] {
+		margin-bottom: 20px;
+	}
+
+	#formulario input[type="email"],
+	#formulario input[type="number"] {
+		width: 95%;
+	}
+
+	#formulario label {
+		visibility: hidden;
+	}
+
+	#formulario label[for="checkbox"] {
+		visibility: visible;
+	}
+
+	input::placeholder,
+	textarea::placeholder {
+		visibility: visible;
+	}
+
+	#listapie {
+		margin: 0px auto;
+		line-height: 10px;
+	}
+
+	#listapie li {
+		text-align: center;
+		display: block;
+		clear: both;
+		float: none;
+		margin: 0px;
+		padding: 0px;
+		margin-bottom: 20px;
+	}
+
+	#listapie li:last-child	 {
+		margin: 0px auto;
+	}
+
+	#listapie .colorazulclaro {
+		display: none;
+	}
+
 }
 
-@media(max-width: 835px) {
+/*Cambio drástico*/
+
+@media(max-width: 835px) {/*6666666666666666666666666666666666666666666666666*/
 
 	.w3-content .w3-display-container{
 		max-height: 170px;
@@ -178,6 +279,10 @@
 		margin: 0px auto;
 	}
 
+	#frase1 {
+		margin-top: 0px;
+	}
+
 	.textoprincipal {
 		clear: both;
 		float: none;
@@ -185,9 +290,19 @@
 		padding-left: 50px;
 	}
 
+	#formulario {
+		display: block;
+		float: left;
+		clear: both;
+		width: 100%;
+		margin-top: 20px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
 }
 
-@media(max-width: 730px) {
+@media(max-width: 730px) {/*7777777777777777777777777777777777777777777777777*/
 	#menu ul li {
 		font-size: 18px;
 		padding-right: 5px;
@@ -204,7 +319,7 @@
 	}
 }
 
-@media(max-width: 610px) {
+@media(max-width: 610px) {/*8888888888888888888888888888888888888888888888888*/
 	#menu ul li {
 		font-size: 16px;
 		padding-right: 2px;
@@ -221,7 +336,7 @@
 	}
 }
 
-@media(max-width: 540px) {
+@media(max-width: 540px) {/*9999999999999999999999999999999999999999999999999*/
 	#menu ul{
 		margin-left: -30px;
 	}
@@ -237,7 +352,7 @@
 	}
 }
 
-@media(max-width: 480px) {
+@media(max-width: 480px) { /*101010101010101010101010101010101010101010101010*/
 
 	header {
 		bottom: 90px;

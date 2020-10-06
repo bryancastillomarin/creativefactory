@@ -14,17 +14,11 @@
 				|
             </li>
             <li>
-				<a href="#">Acércate</a>
-			</li>
-			<li class="colorazulclaro">
-				|
-			</li>
-			<li>
-			 <a href="#"> Ayuda </a>
+				<a href="acercate.php">Acércate</a>
 			</li>
 			<li>
 				2017-2020,
-				<img src="img/MR.png" id="mr">
+				<img src="img/iconos/MR.png" id="mr">
 				Le Groupe Premier México, SAS o sus filiales.
 			</li>
 		</ul>
