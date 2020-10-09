@@ -1,4 +1,4 @@
-/*Fuentes*/
+s/*Fuentes*/
 @font-face {
 	font-family: "bkant";
 	src: url("fonts/BKANT.TTF") format("truetype");
@@ -421,3 +421,40 @@ footer {
 	color: #ccc;
 }
 
+/*Noticias*/
+
+.noticia {
+	display: block;
+	float: left;
+	margin-left: 50px;
+	width: 45%;
+	min-height: 450px;
+}
+
+.noticia .noticia-encabezado {
+	margin: 0px auto;
+	width: 95%;
+	text-align: center;
+}
+
+.noticia .noticia-encabezado h3 {
+	font-family: antquab;
+	font-size: 36px;
+}
+
+.noticia .noticia-imagen {
+	margin: 0px auto;
+	width: 95%;
+	max-height: 110px;
+}
+
+.noticia .noticia-imagen img {
+	margin: 0px auto;
+	width: 100%;
+}
+
+.noticia .noticia-texto {
+	margin: 0px auto;
+	width: 95%;
+	text-align: justify;
+}
