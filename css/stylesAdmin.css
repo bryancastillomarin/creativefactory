@@ -1,0 +1,295 @@
+@font-face {
+	font-family: "bkant";
+	src: url("fonts/BKANT.TTF") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+	color: white;
+	font-family: "bkant";
+}
+
+.clearfix {
+	clear: both;
+	float: none;
+}
+
+input {
+	font-family: "bkant";
+	color: black;
+}
+
+/*Index - Iniciar sesion*/
+#admin-index {
+	margin: 0px auto;
+	margin-top: 200px;
+	width: 50%;
+}
+
+#admin-index #admin-logo {
+	width: 100%;
+}
+
+#admin-index #admin-logo img {
+	display: block;
+	margin: 0px auto;
+	width: 75%;
+}
+
+#admin-index #admin-sesion {
+	width: 100%;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+
+#admin-index #admin-sesion input {
+	display: block;
+	margin: 0px auto;
+	margin-top: 10px;
+	width: 35%;
+}
+
+#admin-index #admin-sesion input[type="text"],
+#admin-index #admin-sesion input[type="password"] {
+	background-color: white;
+}
+
+#admin-index #admin-sesion input[type="text"]:focus,
+#admin-index #admin-sesion input[type="password"]:focus {
+	outline: none;
+}
+
+#admin-index #admin-sesion input[type="submit"] {
+	width: 25%;
+	color: white;
+}
+
+#admin-index #admin-sesion input[type="submit"]:hover {
+	cursor: pointer;
+}
+
+/*Barra lateral*/
+
+#admin-lateral {
+	float: left;
+	width: 15%;
+	height: 100vh;
+	margin-right: 20px;
+	border-right: 1px solid white;
+	padding-left: 40px;
+	padding-top: 40px;
+	overflow: hidden;
+}
+
+#admin-lateral ul {
+	list-style: none;
+}
+
+#admin-lateral ul li {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	transition: all 300ms;
+}
+
+#admin-lateral ul li a{
+	font-size: 20px;
+	text-decoration: none;
+}
+
+#admin-lateral ul li:hover{
+	transform: translateX(30px);
+}
+
+/*Contenido central*/
+
+.admin-content {
+	float: left;
+	width: 75%;
+	margin-left: 20px;
+	padding-top: 40px;
+}
+
+.admin-content .titulo {
+	margin-bottom: 60px;
+}
+
+.admin-content .titulo h2,
+.admin-content .titulo a {
+	display: inline-block;
+}
+
+.admin-content .titulo h2 {
+	float: left;
+}
+
+.admin-content .titulo .nuevo {
+	float: right;
+	padding: 10px 20px 10px 20px;
+	background-color: rgb(23,51,100);
+	text-decoration: none;
+	border-radius: 7px;
+
+	animation-name: verdelimon,azulcielo,lila,rosado,rojo,naranja,amarillo,azuloscuro;
+	animation-duration: 2s;
+	animation-delay: 0s,2s,4s,6s,8s,10s,12s,14s;
+}
+
+/*
+azuloscuro: rgb(23,51,100);
+verdelimon: rgb(166,206,57);
+azulcielo: rgb(0,149,217);
+lila: rgb(165,69,134);
+rosado: rgb(237,2,140);
+rojo: rgb(238,29,35);
+naranja: rgb(245,130,32);
+amarillo: rgb(254,202,10);
+*/
+
+@keyframes azuloscuro {
+	from {
+		background-color: rgb(254,202,10);
+	}
+	to {
+		background-color: rgb(23,51,100);
+	}
+}
+
+@keyframes verdelimon {
+	from {
+		background-color: rgb(23,51,100);
+	}
+	to {
+		background-color: rgb(166,206,57);
+	}
+}
+
+@keyframes azulcielo {
+	from {
+		background-color: rgb(166,206,57);
+	}
+	to {
+		background-color: rgb(0,149,217);
+	}
+}
+
+@keyframes lila {
+	from {
+		background-color: rgb(0,149,217);
+	}
+	to {
+		background-color: rgb(165,69,134);
+	}
+}
+
+@keyframes rosado {
+	from {
+		background-color: rgb(165,69,134);
+	}
+	to {
+		background-color: rgb(237,2,140);
+	}
+}
+
+@keyframes rojo {
+	from {
+		background-color: rgb(237,2,140);
+	}
+	to {
+		background-color: rgb(238,29,35);
+	}
+}
+
+@keyframes naranja {
+	from {
+		background-color: rgb(238,29,35);
+	}
+	to {
+		background-color: rgb(245,130,32);
+	}
+}
+
+@keyframes amarillo {
+	from {
+		background-color: rgb(245,130,32);
+	}
+	to {
+		background-color: rgb(254,202,10);
+	}
+}
+
+.admin-content .titulo .sign {
+	background: none;
+	font-weight: bold;
+}
+
+/*tabla del contenido central*/
+
+.admin-content #tabla-sliders {
+	display: block;
+	width: 100%;
+}
+
+.admin-content #tabla-sliders tr td {
+	padding: 10px;
+}
+
+.admin-content #tabla-sliders tr td:first-child {
+	width: 60%;
+	padding: 0px;
+}
+
+.admin-content #tabla-sliders tr td:last-child {
+	width: 20%;
+	padding: 0px;
+}
+
+.admin-content #tabla-sliders img {
+	width: 100%;
+}
+
+.admin-content #tabla-sliders input {
+	display: block;
+	float: left;
+	color: white;
+	margin-left: 35px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+/*Formularios*/
+
+.admin-content .form {
+	width: 90%;
+	height: 110px;
+	margin: 0px auto;
+	padding: 10px;
+	border: 1px solid white;
+}
+
+.admin-content .form input {
+	background-color: black;
+	color: white;
+}
+
+.admin-content .form * {
+	display: block;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.admin-content .form label {
+	margin-right: 10px;
+}
+
+.admin-content .form textarea {
+	width: 90%;
+	resize: none;
+}
+
+.noticias {
+	height: 350px !important;
+}

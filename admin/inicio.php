@@ -8,21 +8,25 @@
         header("Location:index.php");
     }
 
-    include "inc/aside.php";
     include "db/conexion.php";
-
+    include "inc/header.php";
+    include "inc/aside.php";
+    
     $sql = "SELECT * FROM sliders";
 ?>
-    <div>
-        <div>
-            <h2>Slider</h2>
-            <a href="sliders.php">Agregar Slider</a>
+    <div class="admin-content">
+        <div class="titulo">
+            <h2>Sliders</h2>
+            <a href="sliders.php" class="nuevo"><span class="sign">&plus;</span>
+                Agregar Slider 
+            </a>
         </div>
-        <table>
+        <div class="clearfix"></div>
+        <table id="tabla-sliders">
             <thead>
-                <th>Imagen</th>
+                <th>IMAGEN</th>
                 <th>URL</th>
-                <th>Acción</th>
+                <th>ACCIÓN</th>
             </thead>
             <tbody> 
                 <?php

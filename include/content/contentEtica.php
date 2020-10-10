@@ -9,10 +9,10 @@
 		
 		<article class="textoprincipal">
 			<p>
-				El equipo de <span class="textobold">Creative Factory</span>comprende 
+				El equipo de <span class="textobold">Creative Factory</span> comprende 
 				que los tiempos de respuestas son lo más importante al tratarse de productividad,
 				es por ello que nos	esmeramos en atender sus necesidades con la mayor agilidad,
-				esmero y prontitud posible, sin sacricar la calidad, nos comprometemos a lo real y
+				esmero y prontitud posible, sin sacrificar la calidad, nos comprometemos a lo real y
 				verdaderamente posible.
 			</p>
 			<p>

@@ -11,9 +11,9 @@
 			<p>
 				El mundo empresarial y de negocios actual demanda conceptos
 				innovadores, que den respuesta a las necesidades de quienes brindan un
-				servicio o producto para sus consumidores nales, por ello en Creative
+				servicio o producto para sus consumidores finales, por ello en Creative
 				Factory desarrollamos soluciones a la medida de tus requerimientos en
-				materia de comunicación visual, gráca, relaciones públicas y
+				materia de comunicación visual, gráfica, relaciones públicas y
 				tecnológicas. Dedicamos nuestro tiempo a tu proyecto con algunas de las
 				siguientes soluciones:
 			</p>

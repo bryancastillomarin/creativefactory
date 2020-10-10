@@ -13,7 +13,7 @@
 				comunicación, diseño, relaciones públicas, desarrollo y programación de
 				tecnologías de información. Dedicamos nuestro tiempo a crear y plasmar
 				de manera visual y objetiva las ideas de nuestros clientes, para que ellos
-				alcancen sus metas de manera eciente y ecaz, optimizando tiempo y
+				alcancen sus metas de manera eficiente y eficaz, optimizando tiempo y
 				recursos.
 			</p>
 			<p>
@@ -22,7 +22,7 @@
 				preparados para enfrentar los retos y los cambios que las tendencias del
 				sector presenten, trascendiendo e innovando metodologías, nos
 				capacitamos continuamente para ofrecer un servicio de clase mundial.
-				Su conanza en nosotros, es la principal cualidad que nos distingue frente
+				Su confianza en nosotros, es la principal cualidad que nos distingue frente
 				a los demás.
 			</p>
 		</article>
