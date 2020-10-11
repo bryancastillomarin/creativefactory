@@ -16,13 +16,18 @@
 		$url=$_POST["url_salida"];
 	}
 ?>
-    <div>
-    	<div class="titulo">Actualizar Slider</div>
-        <a href="#">Regresar</a>
-		<form enctype="multipart/form-data" action="servicios/sliderUD.php" method="POST">
-  		<input type='hidden' name='id' value=<?php echo $id; ?> >
-    	<input type='text' name='url' value=<?php echo $url; ?> >
-    	<input type='submit' name='editar' value ='Editar'>
+    <div class="admin-content">
+    	<div class="titulo">
+	    	<h2>Actualizar Slider</h2>
+	        <a href="inicio" class="nuevo"><span class="sign">&larr;</span>
+	        Regresar</a>
+        </div>
+		<form enctype="multipart/form-data" action="servicios/sliderUD.php" method="POST"
+			class="form">
+	  		<input type='hidden' name='id' value=<?php echo $id; ?> >
+	    	<input type='text' name='url' value=<?php echo $url; ?> >
+	    	<div class="clearfix"></div>
+	    	<input type='submit' name='editar' value ='Editar'>
     	</form>
 	</div>
 </body>

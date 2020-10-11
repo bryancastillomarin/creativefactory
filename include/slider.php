@@ -15,7 +15,9 @@
                         $url = $fila[2];
                         $contador++;
             ?>
-            <img class="mySlides" src=<?php echo "\"".$imagen."\""; ?> >
+            <a target="_" href=<?php echo $fila[2]; ?> >
+                <img class="mySlides" src=<?php echo "\"".$imagen."\""; ?> >
+            </a>
             <?php
                     }
                 } else {
