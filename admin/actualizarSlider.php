@@ -19,7 +19,7 @@
     <div class="admin-content">
     	<div class="titulo">
 	    	<h2>Actualizar Slider</h2>
-	        <a href="inicio" class="nuevo"><span class="sign">&larr;</span>
+	        <a href="inicio.php" class="nuevo"><span class="sign">&larr;</span>
 	        Regresar</a>
         </div>
 		<form enctype="multipart/form-data" action="servicios/sliderUD.php" method="POST"

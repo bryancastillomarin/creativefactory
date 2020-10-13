@@ -19,8 +19,9 @@
 				<label for="telefono">Teléfono</label>
 				<textarea name="texto" rows="3" required placeholder="Escribe aquí tu mensaje"></textarea>
 				<div class="clearfix"></div>
-				<input type="checkbox" name="checkbox" required>
-				<label for="checkbox">Al seleccionar ésta casilla, autoriza a Creative Factory México a ponerse en contacto con Usted mediante los medios proporcionados para dar seguimiento a su solicitud, de igual forma acepta los Términos y Aviso de Privacidad de la empresa, así como recibir eventualmente información o promociones de productos o servicios de su interés. Recibirá una respuesta en un máximo de 24 hrs. Todos los campos son obligatorios. Gracias.</label>
+				<input type="checkbox" name="checkbox" required id="check">
+				<label for="checkbox" onclick="check();">
+				Al seleccionar ésta casilla, autoriza a Creative Factory México a ponerse en contacto con Usted mediante los medios proporcionados para dar seguimiento a su solicitud, de igual forma acepta los Términos y Aviso de Privacidad de la empresa, así como recibir eventualmente información o promociones de productos o servicios de su interés. Recibirá una respuesta en un máximo de 24 hrs. Todos los campos son obligatorios. Gracias.</label>
 				<input type="submit" name="enviar" value="Enviar">
 			</form>
 
@@ -47,3 +48,14 @@
 			</p>
 		</div>
 	</section>
+
+	<script type="text/javascript">
+		function check() {
+			var flag = document.getElementById('check');
+			if (flag.checked) {
+				flag.checked = false;
+			} else {
+				flag.checked = true;
+			}
+		}
+	</script>

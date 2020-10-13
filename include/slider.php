@@ -30,8 +30,9 @@
             <img class="mySlides" src="img/sliders/slider3teotihuacan.jpg">
             <img class="mySlides" src="img/sliders/slider4RR.jpg">
             -->
+            <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
             <div class="w3-center w3-display-bottommiddle" style="width:100%">
-                <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
+                
                 <?php 
                     for ($i=0; $i < $contador; $i++) { 
                 ?>
@@ -45,21 +46,29 @@
                 <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
                 <span class="w3-badge demo w3-border" onclick="currentDiv(4)"></span>
                 -->
-                <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
+                
             </div>
+            <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
         </div>
     </div>
 
 <script>
 
-    var slideIndex = 1;
+    var bandera = true;
+    var slideIndex = 0;
     showDivs(slideIndex);
 
+    function plusDivsCarousel(n) {
+        showDivs(slideIndex += n);
+    }
+
     function plusDivs(n) {
+        bandera = false;
         showDivs(slideIndex += n);
     }
 
     function currentDiv(n) {
+        bandera = false;
         showDivs(slideIndex = n);
     }
 
@@ -82,4 +91,14 @@
         x[slideIndex-1].style.display = "block";  
         dots[slideIndex-1].className += " w3-white";
     }
+
+    function showSlides(){
+        if (bandera) {
+            plusDivsCarousel(1);
+            setTimeout(showSlides, 7000);
+        } 
+    }
+
+    showSlides();
+
 </script>

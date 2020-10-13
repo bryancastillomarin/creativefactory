@@ -14,12 +14,6 @@
 		<nav id="menu">
 			<ul>
 				<li><a href="index.php" id="inicio">Inicio</a></li>
-				<li><a href="somos.php" id="somos">Somos</a></li>
-				<li><a href="soluciones.php" id="soluciones">Soluciones</a></li>
-				<li><a href="tecnologia.php" id="tecnologia">Tecnología (IT)</a></li>
-				<li><a href="etica.php" id="etica">Ética</a></li>
-				<li><a href="acercate.php" id="acercate">Acércate</a></li>
-				<li><a href="news.php" id="news">News</a></li>
 			</ul>
 		</nav>
 		<header>

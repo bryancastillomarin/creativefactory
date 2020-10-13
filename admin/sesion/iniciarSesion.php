@@ -14,14 +14,20 @@
     $sql = "SELECT * FROM usuarios";
     if ($resultado = $db->query($sql)) {
         while ($fila = $resultado->fetch_row()) {
-            if($fila[1] == $user && $fila[2] == $password) {
-     			$_SESSION["estaLogueado"] = true;
-                header("Location:../inicio.php");
+            if($fila[1] == $user) {
+                if (password_verify($password, $fila[2])) {
+                    $_SESSION["estaLogueado"] = true;
+                    header("Location:../inicio.php");                    
+                } else {
+                    //error en la contraseña
+                    header("Location:../index.php");
+                }
           	} else {
+                //Error en el nombre de usuario
           		header("Location: ../index.php");
           	}
         }
      }else{
-      	echo "error";
+      	echo "error de conexion";
      }
 ?>
