@@ -10,7 +10,7 @@
 	<link rel="icon" type="favicon/x-icon" href="img/iconos/isotipoCF.png">
 </head>
 <body>
-	<div id="cabecera">
+	<header id="cabecera">
 		<nav id="menu">
 			<ul>
 				<li><a href="index.php" id="inicio">Inicio</a></li>
@@ -22,10 +22,10 @@
 				<li><a href="news.php" id="news">News</a></li>
 			</ul>
 		</nav>
-		<header>
-			<img src="img/iconos/LogoBlancoCFWeb.png" align="Logo Creative Factory" title="Creative Factory">
-		</header>
-	</div>
+		<div>
+			<img src="img/iconos/LogoBlancoCFWeb.png" alt="Logo Creative Factory" title="Creative Factory">
+		</div>
+	</header>
 
 	<div class="clearfix"></div>
 

@@ -57,17 +57,16 @@ body {
 
 /*Cabecera*/
 
-header {
-	display: inline;
+header div {
+	display: inline-block;
 	width: 30%;
-	float: left;
+	float: right;
 }
 
 #menu {
-	display: block;
+	display: inline-block;
 	width: 70%;
 	float: left;
-
 }
 
 #menu ul {

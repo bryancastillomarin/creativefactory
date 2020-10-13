@@ -24,12 +24,6 @@
                     echo "Error de conexion";
                 }
             ?>
-            <!--
-            <img class="mySlides" src="img/sliders/slider1covid19.jpg">
-            <img class="mySlides" src="img/sliders/slider2cocina.jpg">
-            <img class="mySlides" src="img/sliders/slider3teotihuacan.jpg">
-            <img class="mySlides" src="img/sliders/slider4RR.jpg">
-            -->
             <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
             <div class="w3-center w3-display-bottommiddle" style="width:100%">
                 
@@ -39,66 +33,8 @@
                 <span class="w3-badge demo w3-border" onclick=<?php echo "\"currentDiv(".($i + 1).")\""; ?> ></span>
                 <?php
                     }
-                ?>
-                <!--
-                <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
-                <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
-                <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
-                <span class="w3-badge demo w3-border" onclick="currentDiv(4)"></span>
-                -->
-                
+                ?>   
             </div>
             <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
         </div>
     </div>
-
-<script>
-
-    var bandera = true;
-    var slideIndex = 0;
-    showDivs(slideIndex);
-
-    function plusDivsCarousel(n) {
-        showDivs(slideIndex += n);
-    }
-
-    function plusDivs(n) {
-        bandera = false;
-        showDivs(slideIndex += n);
-    }
-
-    function currentDiv(n) {
-        bandera = false;
-        showDivs(slideIndex = n);
-    }
-
-    function showDivs(n) {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("demo");
-        if (n > x.length) {
-            slideIndex = 1
-        }
-        if (n < 1) {
-            slideIndex = x.length
-        }
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" w3-white", "");
-        }
-        x[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " w3-white";
-    }
-
-    function showSlides(){
-        if (bandera) {
-            plusDivsCarousel(1);
-            setTimeout(showSlides, 7000);
-        } 
-    }
-
-    showSlides();
-
-</script>

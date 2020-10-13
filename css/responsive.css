@@ -156,11 +156,13 @@
 
 @media(max-width: 955px){/*55555555555555555555555555555555555555555555555555*/
 
-	#cabecera {
-		margin-bottom: 0px;
+	header {
+		width: 100%;
+		position: relative;
+		padding-left: 0px;
 	}
 
-	header {
+	header div {
 		width: 100%;
 		position: relative;
 		bottom: 50px;
