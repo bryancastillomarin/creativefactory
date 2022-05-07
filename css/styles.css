@@ -51,6 +51,10 @@ body {
 	font-family: "antquab";
 }
 
+.textoitalic {
+	font-family: "antquai"
+}
+
 .symbol {
 	font-family: "WebSymbolsRegular";
 }
@@ -470,10 +474,9 @@ footer {
 .noticia .noticia-encabezado {
 	margin: 0px auto;
 	width: 95%;
-	text-align: center;
 }
 
-.noticia .noticia-encabezado h3 {
+.noticia .noticia-encabezado h1 {
 	font-family: antquab;
 	font-size: 36px;
 }

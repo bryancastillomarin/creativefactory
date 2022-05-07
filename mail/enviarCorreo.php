@@ -6,7 +6,10 @@
 	// Valores enviados desde el formulario
 	if ( !isset($_POST["nombre"]) || !isset($_POST["correo"]) || !isset($_POST["telefono"]) 
 		|| !isset($_POST["texto"]) ) {
-	    die ("Es necesario completar todos los datos del formulario");
+	    echo'<script type="text/javascript">
+    	alert("Es necesario llenar todos los campos.");
+    	window.location.href="../acercate.php";
+    	</script>';
 	}
 
 	$nombre = $_POST["nombre"];
@@ -75,9 +78,14 @@
 
 	$estadoEnvio = $mail->Send(); 
 	if($estadoEnvio){
-	    echo "El correo fue enviado correctamente.";
-	    header("Location:index.php");
+	    echo'<script type="text/javascript">
+    	alert("Gracias por contactarnos.");
+    	window.location.href="../acercate.php";
+    	</script>';
 	} else {
-	    echo "Ocurrió un error inesperado.";
+	    echo'<script type="text/javascript">
+    	alert("Error al enviar correo. Intente nuevamente.");
+    	window.location.href="../acercate.php";
+    	</script>';
 	}
 ?>

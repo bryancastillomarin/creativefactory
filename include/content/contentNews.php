@@ -23,7 +23,7 @@
 
 		<div class="noticia">
 			<div class="noticia-encabezado">
-				<h3><?php echo $encabezado; ?></h3>
+				<h1><?php echo $encabezado; ?></h1>
 			</div>
 			<div class="noticia-imagen">
 				<img src=<?php echo "\"".$imagen."\""; ?> >

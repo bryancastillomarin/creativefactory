@@ -132,10 +132,41 @@ input {
 	background-color: rgb(23,51,100);
 	text-decoration: none;
 	border-radius: 7px;
-
+/*
 	animation-name: verdelimon,azulcielo,lila,rosado,rojo,naranja,amarillo,azuloscuro;
 	animation-duration: 2s;
-	animation-delay: 0s,2s,4s,6s,8s,10s,12s,14s;
+	animation-delay: 0s,2s,4s,6s,8s,10s,12s,14s;*/
+	animation: colores 9s infinite linear;
+}
+
+@keyframes colores {
+	11.11% {
+		background-color: rgb(23,51,100);
+	}
+	22.22% {
+		background-color: rgb(166,206,57);
+	}
+	33.33% {
+		background-color: rgb(0,149,217);
+	}
+	44.44% {
+		background-color: rgb(165,69,134);
+	}
+	55.55% {
+		background-color: rgb(237,2,140);
+	}
+	66.66% {
+		background-color: rgb(238,29,35);
+	}
+	77.77% {
+		background-color: rgb(245,130,32);
+	}
+	88.88% {
+		background-color: rgb(254,202,10);
+	}
+	100% {
+		background-color: rgb(23,51,100);
+	}
 }
 
 /*
@@ -148,7 +179,7 @@ rojo: rgb(238,29,35);
 naranja: rgb(245,130,32);
 amarillo: rgb(254,202,10);
 */
-
+/*
 @keyframes azuloscuro {
 	from {
 		background-color: rgb(254,202,10);
@@ -220,7 +251,7 @@ amarillo: rgb(254,202,10);
 		background-color: rgb(254,202,10);
 	}
 }
-
+*/
 .admin-content .titulo .sign {
 	background: none;
 	font-weight: bold;

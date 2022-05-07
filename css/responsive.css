@@ -272,6 +272,11 @@
 		min-height: 170px;
 	}
 
+	.w3-left, .w3-right {
+		margin-top: -120px;
+		font-size: 60px;
+	}
+
 	.w3-badge {
 		height: 15px;
 		width: 15px;
@@ -389,6 +394,11 @@
 		min-height: 120px;
 	}
 
+	.w3-left, .w3-right {
+		margin-top: -100px;
+		font-size: 50px;
+	}
+
 	.noticia .noticia-imagen,
 	.noticia .noticia-imagen img{
 		max-height: 90px;
@@ -418,7 +428,7 @@
 
 @media(max-width: 480px) { /*101010101010101010101010101010101010101010101010*/
 
-	header {
+	header div {
 		bottom: 90px;
 	}
 
@@ -428,6 +438,11 @@
 
 	#menu ul li {
 		padding-right: 10px;
+	}
+
+	.w3-left, .w3-right {
+		margin-top: -80px;
+		font-size: 40px;
 	}
 
 	.noticia .noticia-encabezado h3 {

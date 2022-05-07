@@ -8,7 +8,7 @@
 
 		<div id="formulario">
 			<p><span class="textobold">¿Cómo te ayudamos?</span> Dinos tus necesidades.</p>
-			<form method="POST" id="mensaje" action="mail/correo.php">
+			<form method="POST" id="mensaje" action="mail/enviarCorreo.php" autocomplete="off">
 				<input type="text" name="nombre" required placeholder="Nombre completo">
 				<label for="nombre">Nombre completo</label>
 				<div class="clearfix"></div>

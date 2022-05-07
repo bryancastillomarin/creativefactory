@@ -23,7 +23,7 @@
 				llevará a buen puerto con el viento en popa.
 			</p>
 			<p>
-				Estas en el lugar correcto, ¡bienvenidos a <span class="textobold">Creative Factory!</span>
+				Estas en el lugar correcto, ¡Bienvenidos a <span class="textobold">Creative Factory!</span>
 			</p>
 		</article>
 	</section>
